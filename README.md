@@ -3,11 +3,11 @@ Express is a flexible Node JS Web Application Framework
 
 ---------------------------------------
 
-#### $Create New File$ : `index.js` 📝
+### $Create New File$ : `index.js` 📝
 
 You Have to create a new file `index.js` to run your express js project.
 
-#### $Installation$ ⚙️
+### $Installation$ ⚙️
 
 Open a new terminal from the project directory and continue,
 
@@ -21,7 +21,7 @@ Wait few seconds till `node_modules` & `package.json` / `package-lock.json` file
 
 After that, initiate the Express Project in `index.js` as follows,
 
-#### $Setup$ `index.js` 🛠️
+### $Setup$ `index.js` 🛠️
 
 First Require express :
 ```js
@@ -65,7 +65,7 @@ const server = app.listen(process.env.PORT || 3000, () => {
 
 By the above `process.env.PORT` helps us to configure a new port, if you need to change the port all you have to do is simply change `3000` to any port at your preference.
 
-#### $Final Code$ `index.js` 👨‍💻
+### $Final Code$ `index.js` 👨‍💻
 
 ```javascript
 
@@ -84,7 +84,7 @@ var server = app.listen(3000,function(){
 })
 ```
 
-#### $Run Project$ 🏃‍♂️
+### $Run Project$ 🏃‍♂️
 
 Running your Project is simple, in your terminal with the project root directory,
 
@@ -92,7 +92,7 @@ Running your Project is simple, in your terminal with the project root directory
 node .
 ```
 
-#### $Congratulations$ 🥳
+### $Congratulations$ 🥳
 
 Now you will able to see something looks like follows in your terminal,
 
